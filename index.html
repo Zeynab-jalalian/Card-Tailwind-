@@ -1,30 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Card</title>
-     <style>
-    .flex-center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    <style>
+      .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     </style>
-</head>
-<body class="bg-black text-white">
-    <div class="min-h-screen flex-center gap-8">
-        <div class="max-w-md w-full p-4 bg-[#1a1a1a] rounded-2xl text-center">
-            <img src="img/i.png">
-            <h1 class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent uppercase">KARTT 9 CV</h1>
-            <p class="mt-2 mb-4 text-sm text-gray-500">Minimum 11 Years Old And 1.5m Tall</p>
-            <div>
-                
+  </head>
+  <body class="bg-black text-white p-3">
+    <div class="min-h-screen flex-center gap-8 flex-col lg:flex-row flex-wrap">
+      <div class="max-w-md w-full p-4 bg-[#1a1a1a] rounded-2xl text-center">
+        <img src="img/i.png"  class="w-20 h-20 objec-cover mx-auto" />
+        <h1
+          class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent uppercase"
+        >
+          KARTT 9 CV
+        </h1>
+        <p class="mt-2 mb-8 text-sm text-gray-500">
+          Minimum 11 Years Old And 1.5m Tall
+        </p>
+        <div class="w-[85%] mx-auto">
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class=" font-bold ">Speed</span>
+              <span class="text-sm text-gray-300">60 KM/H</span>
             </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class=" font-bold ">Difficult</span>
+              <span class="text-sm text-gray-300">30 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class="font-bold ">Taili</span>
+              <span class="text-sm text-gray-300">150 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <button class="rounded-full py-3 font-bold text-lg mt-6 w-[100%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600">Rent This Car</button>
         </div>
-        <div class="max-w-md w-full p-4 bg-[#1a1a1a] rounded-2xl text-center">s</div>
-        <div class="max-w-md w-full p-4 bg-[#1a1a1a] rounded-2xl text-center">s</div>
+      </div>
+     <div class="max-w-md w-full p-4 bg-[#1a1a1a] rounded-2xl text-center">
+        <img src="img/i.png" class="w-20 h-20 objec-cover mx-auto" />
+        <h1
+          class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent uppercase"
+        >
+          KARTT 9 CV
+        </h1>
+        <p class="mt-2 mb-8 text-sm text-gray-500">
+          Minimum 11 Years Old And 1.5m Tall
+        </p>
+        <div class="w-[85%] mx-auto">
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class=" font-bold ">Speed</span>
+              <span class="text-sm text-gray-300">60 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class=" font-bold ">Difficult</span>
+              <span class="text-sm text-gray-300">30 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class="font-bold ">Taili</span>
+              <span class="text-sm text-gray-300">150 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <button class="rounded-full py-3 font-bold text-lg mt-6 w-[100%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600">Rent This Car</button>
+        </div>
+      </div>
+     <div class="max-w-md w-full p-4 bg-[#1a1a1a] rounded-2xl text-center">
+        <img src="img/i.png"  class="w-20 h-20 objec-cover mx-auto" />
+        <h1
+          class="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 bg-clip-text text-transparent uppercase"
+        >
+          KARTT 9 CV
+        </h1>
+        <p class="mt-2 mb-8 text-sm text-gray-500">
+          Minimum 11 Years Old And 1.5m Tall
+        </p>
+        <div class="w-[85%] mx-auto">
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class=" font-bold ">Speed</span>
+              <span class="text-sm text-gray-300">60 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class=" font-bold ">Difficult</span>
+              <span class="text-sm text-gray-300">30 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <div class="w-full mb-4">
+            <div class="flex justify-between items-center">
+              <span class="font-bold ">Taili</span>
+              <span class="text-sm text-gray-300">150 KM/H</span>
+            </div>
+            <div class="w-full h-4 mt-2 bg-gray-800 rounded">
+              <div
+                class="h-full w-[60%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600"
+              ></div>
+            </div>
+          </div>
+
+          <button class="rounded-full py-3 font-bold text-lg mt-6 w-[100%] bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600">Rent This Car</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
